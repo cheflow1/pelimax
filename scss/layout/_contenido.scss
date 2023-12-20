@@ -1,0 +1,21 @@
+section {
+    .populares {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .estrenos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .series {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+}

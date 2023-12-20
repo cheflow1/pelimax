@@ -1,0 +1,27 @@
+footer {
+    .footer {
+        div {
+            .footer-links {
+                div {
+                    .redes-sociales {
+                        a {
+                            display: inline-block;
+                            min-height: 40px;
+                            width: 40px;
+                            background-color: rgba(255, 255, 255, 0.2);
+                            margin: 0 10px 10px 0;
+                            text-align: center;
+                            line-height: 40px;
+                            border-radius: 50px;
+                            color: white;
+                            transition: all .5s ease;
+                            &:hover {
+                                background-color: #00c3ff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

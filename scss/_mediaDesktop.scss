@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+        .populares {
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            gap: 3px;
+            grid-auto-rows: minmax(100px, auto); 
+        }
+        .estrenos {
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            gap: 3px;
+            grid-auto-rows: minmax(100px, auto);
+        }
+    }
+}
